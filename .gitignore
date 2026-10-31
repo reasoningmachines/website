@@ -1,0 +1,14 @@
+# Kit local generated environment, cache, and scratch artifacts
+.env
+.envrc
+.kit/cache/
+.kit/tmp/
+.kit/temp/
+.kit/*.tmp
+.kit/*.lock
+
+# Local build and browser evidence
+dist/
+output/
+.playwright-cli/
+node_modules/
