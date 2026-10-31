@@ -10,8 +10,12 @@ No installation, credentials, backend, database, or production environment is ne
 
 ## Browser review
 
-Use an isolated browser session. Inspect full-page desktop and mobile screenshots, including at 320, 390, 768, and 1440 pixels. Check horizontal overflow, tab order, visible focus, skip navigation, section anchors, external links, bounded cursor motion, and reduced motion. Confirm only local assets load and there are no browser errors. Browser evidence supplements document/syntax checks; it is not full assistive-technology certification.
+Use an isolated browser session. Inspect full-page desktop and mobile screenshots, including at 320, 390, 768, 1280, and 1440 pixels. Check horizontal overflow, tab order, visible focus, skip navigation, section anchors, external links, bounded cursor motion, and reduced motion. Confirm only local assets load and there are no browser errors. Browser evidence supplements document/syntax checks; it is not full assistive-technology certification.
 
 ## Automation
 
 The site-check workflow runs build and source checks on PRs. Kit validation and rendered browser review were run locally; hosted Kit and browser checks are not configured. The Pages workflow runs build/source checks and publishes only dist/ on main. After deployment, compare the served HTML/CSS/JS/favicon bytes with the intended build, verify the Pages source commit and Mint run, check root/www routing and HTTPS, and inspect the published desktop/mobile rendering. Mail delivery is out of scope until forwarding destinations are supplied.
+
+## Readability review
+
+For typography changes, check body text, navigation, supporting copy, line length and wrapping at each viewport. Preserve the main heading scale unless evidence requires a separate change. Test keyboard focus/skip navigation and a 200% browser-zoom-equivalent reflow at a 640px CSS viewport for a 1280px-wide display. Record this equivalence literally rather than claiming browser-UI zoom was exercised. Check for clipped text and horizontal overflow, and save section screenshots alongside computed font-size evidence.
