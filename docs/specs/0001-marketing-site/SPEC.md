@@ -16,7 +16,7 @@ Create a readable, playful local marketing preview for Reasoning Machines LLC th
 
 ## CONTEXT
 
-The project was created with installed Kit v3.0.50 using `kit init --output-only`. The private repository is https://github.com/reasoningmachines/website. The owner authorized an initial README baseline on main, implementation push on a separate branch, and a ready-for-review PR, while excluding issues, merge, deployment, and DNS/email changes. The README baseline is commit ebf5590791e81da50964421cea13c9598f33b035. Public GitHub organization pages verify Applied Symbolics and Limina Dev; detailed claims about Open Vital and Spectral7 are unverified.
+The project was created with installed Kit v3.0.50 using `kit init --output-only`. The repository is https://github.com/reasoningmachines/website. The owner authorized an initial README baseline on main, implementation push on a separate branch, and a ready-for-review PR, The owner subsequently authorized public repository visibility, merging this site PR, GitHub Pages publication on reasoningmachines.co, expected Kit/Mint tags/releases, and necessary Squarespace web DNS changes. Tracking issues, unrelated repositories, purchases, mail/security record changes, and email forwarding remain outside this scope. The README baseline is commit ebf5590791e81da50964421cea13c9598f33b035. Public GitHub organization pages verify Applied Symbolics and Limina Dev; detailed claims about Open Vital and Spectral7 are unverified.
 
 ## REQUIREMENTS
 
@@ -28,7 +28,7 @@ Build dependency-free HTML, CSS, and a bounded cursor interaction. Keep unverifi
 
 ## DECISIONS
 
-The explicit instruction overrides the generated default issue and worktree workflow. A later scope update authorizes pushing the implementation and opening a ready PR, but no tracking issues, merge, publication, DNS, or email changes. Preserve Kit's generated files. Leave contact delivery pending rather than invent an address. System fonts avoid third-party requests.
+The explicit instruction overrides the generated default issue and worktree workflow. A later scope update authorizes pushing the implementation and opening a ready PR, The later publication scope includes merge, public visibility, GitHub Pages, Mint publication, and web DNS; it excludes tracking issues and mail changes. Preserve Kit's generated files. Leave contact delivery pending rather than invent an address. System fonts avoid third-party requests.
 
 ## DISCOVERIES
 
@@ -36,11 +36,11 @@ Kit init needed network access to verify the official Mint Action release. It co
 
 ## VALIDATION
 
-`make help` and `make check` passed, including the build, JavaScript syntax, public asset allowlist, exact build fidelity, unique IDs, internal anchors, and Kit project contract. Chromium rendered the final desktop and mobile layouts; a visual refinement increased annotation size, retained mobile contact navigation, and improved the mobile contact headline. Browser checks reported no horizontal overflow at 320, 390, 768, and 1440 pixels, all nine links reachable by keyboard with a 3px outline, and skip-link focus reaching MAIN. Reduced motion reported transform none, transition 0s, and automatic scrolling. Ordinary pointer movement updated bounded eye offsets. Four local resource requests returned 200; browser console had no errors or warnings. Public external link destinations were inspected. Screenshots are retained locally under output/playwright/. Full assistive-technology and multi-browser certification were not performed. Hosted CI must be verified against the implementation PR head after push; it is not represented as passing by this local validation record.
+`make help` and `make check` passed, including the build, JavaScript syntax, public asset allowlist, exact build fidelity, unique IDs, internal anchors, and Kit project contract. Chromium rendered the final desktop and mobile layouts; a visual refinement increased annotation size, retained mobile contact navigation, and improved the mobile contact headline. Browser checks reported no horizontal overflow at 320, 390, 768, and 1440 pixels, all nine links reachable by keyboard with a 3px outline, and skip-link focus reaching MAIN. Reduced motion reported transform none, transition 0s, and automatic scrolling. Ordinary pointer movement updated bounded eye offsets. Four local resource requests returned 200; browser console had no errors or warnings. Public external link destinations were inspected. Screenshots are retained locally under output/playwright/. Full assistive-technology and multi-browser certification were not performed. Hosted static-site CI passed on the initial PR head. Revalidate the updated publication head before merge. The tracked tree and all 45 reachable historical blobs were inspected before public visibility; no secrets, private data markers, or generated user filesystem paths were found.
 
 ## OUTCOME
 
-The local preview is complete and the private repository exists. The initial README baseline is on main under explicit owner approval. The implementation is prepared on marketing-site-preview for a ready-for-review PR; merge and deployment remain outside the authorized scope. Screenshot Library upload was attempted using the supported prepared helper; it reported that Library prepare_uploads is unavailable, so local screenshots are retained and upload is incomplete. Contact destination and brand descriptions remain pending.
+The local site is complete and PR #1 contains its implementation plus an isolated build/deploy GitHub Pages workflow. The original Kit/Mint workflow remains unchanged. Publication and web DNS are authorized; live DNS, TLS, Pages, and Mint results require observation after merge. Screenshot Library upload was attempted using the supported prepared helper; it reported that Library prepare_uploads is unavailable, so local screenshots are retained and upload is incomplete. Contact destination and brand descriptions remain pending.
 
 ## REPOSITORY MEMORY
 

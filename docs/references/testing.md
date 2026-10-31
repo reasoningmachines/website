@@ -14,4 +14,4 @@ Use an isolated browser session. Inspect full-page desktop and mobile screenshot
 
 ## Automation
 
-The site-check workflow runs build and source checks on PRs. Kit validation and rendered browser review were run locally; hosted Kit and browser checks are not configured. No production testing applies until a separately authorized deployment exists.
+The site-check workflow runs build and source checks on PRs. Kit validation and rendered browser review were run locally; hosted Kit and browser checks are not configured. The Pages workflow runs build/source checks and publishes only dist/ on main. After deployment, compare the served HTML/CSS/JS/favicon bytes with the intended build, verify the Pages source commit and Mint run, check root/www routing and HTTPS, and inspect the published desktop/mobile rendering. Mail delivery is out of scope until forwarding destinations are supplied.
