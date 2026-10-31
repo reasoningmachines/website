@@ -45,3 +45,13 @@ The local site is complete and PR #1 contains its implementation plus an isolate
 ## REPOSITORY MEMORY
 
 This spec records the accepted scope and provisional copy boundaries. Testing reference and README record verified local commands and copy boundaries. Constitution remains at its valid bootstrap state; no additional invariants were inferred.
+
+## Site-family local review (2026-10-31)
+
+A separate authorized local-only pass links the suite through the personal homepage directory. Use public organization profiles for Applied Symbolics, Limina Dev, and Spectral7; the latter is now verified at https://github.com/spectral7-ltd. Add Ambient OS and OpenCarrier as product links under Applied Symbolics. Normalize OpenVital to the approved single-word name and describe its healthcare AI focus, with its separate website forthcoming. No OpenVital URL, product launch, medical claim, contact destination, DNS, or publication is inferred. Cross-repository activation decisions are retained in the personal site's site-family program ledger.
+
+The local family-link build, source validation, and Kit project checks passed. Browser review at 320, 390, 768, and 1440 pixels found no overflow and confirmed visible focus for the family links. The changes remain uncommitted in an isolated task worktree; publication remains outside this pass.
+
+## Approved suite publication
+
+Publication of the prepared five-site suite changes is approved. The canonical OpenVital destination is https://openvital.co/ and Limina’s site is https://limina-dev.github.io/. The suite PR can be prepared with these links, but merges wait for coordinator confirmation that Reasoning Machines and OpenVital serve their intended marketing pages. Keep Medproof in-development positioning and preserve Pages and Mint behavior. DNS changes and OpenVital source remain outside this lane.

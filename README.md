@@ -21,13 +21,13 @@ One static page with an introduction, four areas of work, approach, and contact.
 
 ## Copy still to confirm
 
-- Open Vital: approved description and public URL.
+- OpenVital: healthcare AI positioning is approved; its website is https://openvital.co/.
 - Limina Dev: approved description beyond the verified GitHub presence.
-- Spectral7 (display name for spectral7-ltd): approved description and public URL.
+- Spectral7: GitHub organization is verified; detailed positioning and a separate website are still pending.
 - Preferred contact address or other destination; the preview deliberately has none.
 - Final approval of the proposed studio positioning and approach copy.
 
-Applied Symbolics copy is limited to the public event collector described at https://github.com/appliedsymbolics. Limina Dev links to https://github.com/limina-dev. No private implementation or customer information was used.
+Applied Symbolics links to its public organization, Ambient OS, and OpenCarrier marketing sites. Limina Dev links to https://limina-dev.github.io/. No private implementation or customer information was used.
 
 ## Publication
 
