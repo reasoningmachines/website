@@ -19,15 +19,13 @@ Open http://127.0.0.1:4173. The server binds to loopback and serves only four al
 
 One static page with an introduction, four areas of work, approach, and contact. Local system fonts and an inline SVG keep it self-contained. Pointer motion is bounded inside the illustration and disabled for reduced motion and coarse pointers. No analytics, form service, cookies, API, or backend.
 
-## Copy still to confirm
+## Positioning and remaining details
 
 - OpenVital: healthcare AI positioning is approved; its website is https://openvital.co/.
-- Limina Dev: approved description beyond the verified GitHub presence.
-- Spectral7: GitHub organization is verified; detailed positioning and a separate website are still pending.
+- Spectral7: high-level project positioning is confirmed; a separate website remains unverified.
 - Preferred contact address or other destination; the preview deliberately has none.
-- Final approval of the proposed studio positioning and approach copy.
 
-Applied Symbolics links to its public organization, Ambient OS, and OpenCarrier marketing sites. Limina Dev links to https://limina-dev.github.io/. No private implementation or customer information was used.
+Applied Symbolics links to its public organization, Ambient OS, and OpenCarrier marketing sites. Limina Dev links to https://limina-dev.github.io/. The high-level Limina Dev and Spectral7 descriptions follow the owner’s request and authorized project review. No private implementation or customer information is published. Studio and approach copy follow Jameson’s verified published writing; see docs/specs/studio-copy/SPEC.md.
 
 ## Publication
 
